@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
 class ReuseableColumn extends StatelessWidget {
   // ignore: use_key_in_widget_constructors
@@ -20,10 +21,7 @@ class ReuseableColumn extends StatelessWidget {
         ),
         Text(
           label,
-          style: const TextStyle(
-            fontSize: 18,
-            color: Color(0xFF8D8E98),
-          ),
+          style: labelTextStyle,
         ),
       ],
     );
